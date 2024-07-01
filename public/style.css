@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato:wght@900&family=Montserrat:wght@400;800&family=Oswald&family=Permanent+Marker&family=Poppins:wght@200;500&family=Roboto:wght@100;300;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+  
+    
+}
+.bgt {
+    background-color: red;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10));
+  
+height: 4.375rem;
+}
+.drk-mode{
+
+    margin-top: 20px;
+    margin-right:5px;
+}
+
+.toggle{
+    height:20px;
+     width:40px;
+     background-color:white;
+     border: black 1px solid;
+     border-radius:10px;
+     
+     
+     
+   }
+   .toggle.active{
+
+  
+   }
+   
+   .inside-circle{
+      height:20px;
+     width:15px;
+     background-color:blue;
+     border-radius:15px;
+   }
+.header img{
+    translate: 20px 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 20px;
+}
+.hero--photo{
+max-width: 800px;
+align-self: center;
+}
+section .hero--header{
+    margin-bottom: 16px;
+    margin-left: 20px;
+    
+}
+section .hero--text{
+    margin-top: 0;
+    line-height: 1.4;
+    margin-left: 20px;
+}
+.card{
+    padding: 10px;
+  
+    
+}
+.card :nth-child(1) img{
+    width: 11rem;
+height: 14.6875rem;
+   border-radius: 0.5625rem;
+   
+    
+}
+.card :nth-child(2) img{
+    height: 0.875rem;
+    width: 0.875rem;
+    
+}
+.card .textsection{
+    display: flex;
+    padding: 5px;
+    
+    
+}
+.textsection .star-text{
+  
+    translate: 5px 1px;
+    color: #222;
+font-family: Poppins;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 300;
+line-height: 110%; /* 0.825rem */
+padding: 0;
+
+    
+}
+.textsection :nth-child(2) span{
+    
+   color:  #918E9B;
+}
+.textsection{
+ 
+  padding: 100px;
+  margin-left: -5px;
+    
+}
+.card {
+
+    width: 200px;
+   
+}
+.card  .first{
+    
+
+    color: #222;
+font-family: Poppins;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 300;
+
+margin-top: 0;
+}
+.card .second{
+    color: #222;
+font-family: Poppins;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 600;
+
+margin-top: -5px;
+}
+.color-blue{
+    font-weight: normal;
+  
+    
+}
+.card-container{
+    margin: 0 auto;
+
+    display: flex;
+   
+    width: 560px;
+  padding: 20px;
+    overflow: scroll;
+}
+.card  .tag{
+    border-radius: 0.125rem;
+background: #FFF;
+height: 1rem;
+
+width: 3.8125rem;
+position: absolute;
+text-align: center;
+font-family: Poppins;
+font-size: 0.64rem;
+font-style: normal;
+font-weight: 400;
+margin-left: 5px;
+margin-top: 5px;
+}
+.imgsection{
+  position: relative;
+}
