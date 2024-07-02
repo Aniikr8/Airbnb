@@ -31,7 +31,7 @@ function Navbar(){
      
     }
   
-console.log(flag);
+
 return(
 <>
 <div className="header" style = {flag ? mystyle : {}}>

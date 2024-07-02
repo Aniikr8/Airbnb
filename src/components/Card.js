@@ -1,9 +1,9 @@
 import React from "react"
 
     function Card(props){
-    console.log(props);
+    // console.log(props);
     if(props.item)
-    console.log(props.openSpots)
+    // console.log(props.openSpots)
    var textContent = "";
     if(props.item.openSpots === 0){
 

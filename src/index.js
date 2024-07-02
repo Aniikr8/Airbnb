@@ -6,7 +6,7 @@ import Card from "./components/Card"
 
 import data from "./data"
 export default function App() {
-    console.log(data);
+    // console.log(data);
  const items = data.map(item =>
     
 {
@@ -19,7 +19,7 @@ return <Card  img = {item.coverImg}
 
 
     )
-   console.log(items)
+//    console.log(items)
     return (
       
         <div>
